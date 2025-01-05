@@ -241,7 +241,7 @@ async function run() {
   }
 }
 
-run().catch(console.dir);
+run().catchs(console.dir);
 
 // Base Route
 app.get("/", (req, res) => {
